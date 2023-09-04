@@ -1,0 +1,129 @@
+{
+  "HeaderMenu": {
+    "Dark Mode": "Dark Mode",
+    "Light Mode": "Light Mode",
+    "English": "EN",
+    "Turkish": "TR",
+    "Log Out": "Log Out",
+    "Users": "Users",
+    "Reports": "Reports",
+    "Messages": "Messages",
+    "Login": "Login"
+  },
+
+  "AddUser": {
+    "Username (Max 10 characters)": "Username (Max 10 characters)",
+    "Password (Max 10 characters)": "Password (Max 10 characters)",
+    "UPLOAD": "UPLOAD",
+    "Upload a photo": "Upload a photo",
+    "All fields are required": "All fields are required",
+    "Username and password must be 10 characters or less": "Username and password must be 10 characters or less",
+    "An error occurred": "An error occurred",
+    "Add User": "Add User",
+    "Back": "Back"
+  },
+
+  "WelcomePage": {
+    "title": "Welcome,",
+    "message": "Discover amazing features and content."
+  },
+
+  "ContactForm": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "We're open for any suggestion or just to have a chat.",
+    "nameLabel": "Name",
+    "maleLabel": "Male",
+    "femaleLabel": "Female",
+    "countryLabel": "Country",
+    "messageLabel": "Message",
+    "submitButton": "Submit",
+    "countryInvalidMessage": "Please select a valid country from the list.",
+    "toastFillFields": "Please fill out all the required fields.",
+    "toastSuccess": "Form submitted successfully!",
+    "toastError": "Error submitting form. Please try again later."
+  },
+  "EditUser": {
+    "pageTitle": "Edit User",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "updateButton": "Update",
+    "cancelButton": "Cancel",
+    "toastSuccess": "User details successfully updated!",
+    "loadingMessage": "Loading user details...",
+    "fileUploadButton": "File",
+    "uploadPhotoPlaceholder": "Upload a photo"
+  },
+
+  "Login": {
+    "title": "Login",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "submitButton": "Submit",
+    "errorMessage": "An error occurred. Please try again later.",
+    "successMessage": "Login successful"
+  },
+
+  "MessageDetails": {
+    "title": "Message Details",
+    "nameLabel": "Name:",
+    "genderLabel": "Gender:",
+    "countryLabel": "Country:",
+    "messageLabel": "Message:",
+    "readLabel": "Read:",
+    "deleteButton": "Delete",
+    "backButton": "Back",
+    "messageDeleted": "Message successfully deleted."
+  },
+
+  "MessagesComponent": {
+    "pageTitle": "Messages",
+    "showPerPage": "Show per page:",
+    "sortBy": "Sort by:",
+    "tableHeaders": {
+      "name": "Name",
+      "gender": "Gender",
+      "country": "Country",
+      "message": "Message",
+      "messageRead": "Read",
+      "creationDate": "Creation Date",
+      "viewDetails": "View Details"
+    },
+    "viewDetails": "View Details",
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "NotAuthorizedPage": {
+    "pageTitle": "Not Authorized",
+    "headerText": "403",
+    "subHeaderText": "Not Authorized Page",
+    "errorMessage": "You do not have sufficient privileges to access this page.",
+    "goToHomeButton": "Go to Home"
+  },
+  "NotFoundPage": {
+    "pageTitle": "Page Not Found",
+    "subHeaderText": "The requested page could not be found.",
+    "goToHomeButton": "Go to Home"
+  },
+
+  "Reports": {
+    "pageTitle": "Reports",
+    "messageCountByCountry": "Message Count for Each Country",
+    "messageCountByGender": "Message Count for Each Gender",
+    "messageCountByGenderPolar": "Message Count for Each Gender (Polar Area Chart)",
+    "messageCountByGenderRadar": "Message Count for Each Gender (Radar Chart)",
+    "loading": "Loading...",
+    "noData": "No data available.",
+    "errorFetchingData": "Error fetching data. Please try again later."
+  },
+  "UsersList": {
+    "pageTitle": "List of Users",
+    "addUserButton": "Add User",
+    "noUsersFound": "No users found.",
+    "photo": "Photo",
+    "role": "Role",
+    "name": "Name",
+    "password": "Password",
+    "edit": "Edit",
+    "loading": "Loading..."
+  }
+}

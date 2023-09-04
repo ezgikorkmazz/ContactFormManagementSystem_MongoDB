@@ -1,0 +1,128 @@
+{
+  "HeaderMenu": {
+    "Dark Mode": "Karanlık Mod",
+    "Light Mode": "Açık Mod",
+    "English": "İNG",
+    "Turkish": "TR",
+    "Log Out": "Çıkış Yap",
+    "Users": "Kullanıcılar",
+    "Reports": "Raporlar",
+    "Messages": "Mesajlar",
+    "Login": "Giriş Yap"
+  },
+  "AddUser": {
+    "Username (Max 10 characters)": "Kullanıcı Adı (En fazla 10 karakter)",
+    "Password (Max 10 characters)": "Parola (En fazla 10 karakter)",
+    "Upload a photo": "Fotoğraf yükle",
+    "UPLOAD": "YÜKLE",
+    "All fields are required": "Tüm alanlar gereklidir",
+    "Username and password must be 10 characters or less": "Kullanıcı adı ve parola en fazla 10 karakter olmalıdır",
+    "An error occurred": "Bir hata oluştu",
+    "Add User": "Kullanıcı Ekle",
+    "Back": "Geri"
+  },
+
+  "WelcomePage": {
+    "title": "Hoşgeldin,",
+    "message": "Muhteşem özellikleri ve içeriği keşfedin."
+  },
+
+  "ContactForm": {
+    "pageTitle": "Bize Ulaşın",
+    "pageSubtitle": "Herhangi bir öneriye açığız veya sadece sohbet etmek isteyebilirsiniz.",
+    "nameLabel": "Adınız",
+    "maleLabel": "Erkek",
+    "femaleLabel": "Kadın",
+    "countryLabel": "Ülke",
+    "messageLabel": "Mesaj",
+    "submitButton": "Gönder",
+    "countryInvalidMessage": "Lütfen listeden geçerli bir ülke seçin.",
+    "toastFillFields": "Lütfen tüm zorunlu alanları doldurun.",
+    "toastSuccess": "Form başarıyla gönderildi!",
+    "toastError": "Form gönderilirken hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
+  "EditUser": {
+    "pageTitle": "Kullanıcıyı Düzenle",
+    "usernameLabel": "Kullanıcı Adı",
+    "passwordLabel": "Parola",
+    "updateButton": "Güncelle",
+    "cancelButton": "İptal",
+    "toastSuccess": "Kullanıcı detayları başarıyla güncellendi!",
+    "loadingMessage": "Kullanıcı detayları yükleniyor...",
+    "fileUploadButton": "Dosya",
+    "uploadPhotoPlaceholder": "Bir fotoğraf yükleyin"
+  },
+  "Login": {
+    "title": "Giriş",
+    "usernameLabel": "Kullanıcı Adı",
+    "passwordLabel": "Şifre",
+    "submitButton": "Gönder",
+    "errorMessage": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "successMessage": "Giriş başarılı"
+  },
+  "MessageDetails": {
+    "title": "Mesaj Detayları",
+    "nameLabel": "Ad:",
+    "genderLabel": "Cinsiyet:",
+    "countryLabel": "Ülke:",
+    "messageLabel": "Mesaj:",
+    "readLabel": "Okundu:",
+    "deleteButton": "Sil",
+    "backButton": "Geri",
+    "messageDeleted": "Mesaj başarıyla silindi."
+  },
+
+  "MessagesComponent": {
+    "pageTitle": "Mesajlar",
+    "showPerPage": "Sayfa başına göster:",
+    "sortBy": "Sırala:",
+    "tableHeaders": {
+      "name": "Ad",
+      "gender": "Cinsiyet",
+      "country": "Ülke",
+      "message": "Mesaj",
+      "creationDate": "Oluşturulma Tarihi",
+      "messageRead": "Okundu",
+      "viewDetails": "Detayları Gör"
+    },
+    "viewDetails": "Detayları Gör",
+    "Previous": "Geri",
+    "Next": "İleri"
+  },
+  "NotAuthorizedPage": {
+    "pageTitle": "Yetkisiz Erişim",
+    "headerText": "403",
+    "subHeaderText": "Yetkisiz Erişim Sayfası",
+    "errorMessage": "Bu sayfaya erişmek için yetkiniz yok.",
+    "goToHomeButton": "Ana Sayfaya Git"
+  },
+  "NotFoundPage": {
+    "pageTitle": "Sayfa Bulunamadı",
+    "subHeaderText": "İstenilen Sayfa Bulunmamaktadır",
+    "goToHomeButton": "Ana Sayfaya Git"
+  },
+
+  "Reports": {
+    "pageTitle": "Raporlar",
+    "messageCountByCountry": "Her Ülke İçin Mesaj Sayısı",
+    "messageCountByGender": "Her Cinsiyet İçin Mesaj Sayısı",
+    "messageCountByGenderPolar": "Her Cinsiyet İçin Mesaj Sayısı (Polar Alan Grafiği)",
+    "messageCountByGenderRadar": "Her Cinsiyet İçin Mesaj Sayısı (Radar Grafiği)",
+    "loading": "Yükleniyor...",
+    "noData": "Veri mevcut değil.",
+    "errorFetchingData": "Veri alınamadı. Lütfen daha sonra tekrar deneyin."
+  },
+  "UsersList": {
+    "pageTitle": "Kullanıcı Listesi",
+    "addUserButton": "Kullanıcı Ekle",
+    "noUsersFound": "Kullanıcı bulunamadı.",
+    "photo": "Fotoğraf",
+    "role": "Rol",
+    "name": "Ad",
+    "password": "Parola",
+    "edit": "Düzenle",
+    "loading": "Yükleniyor...",
+    "visibilityOn": "görünürlük",
+    "visibilityOff": "görünürlük_kapat"
+  }
+}

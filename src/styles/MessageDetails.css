@@ -1,0 +1,30 @@
+.message-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 90%;
+  max-width: 100%;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-action {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.btn {
+  margin: 0 8px;
+}

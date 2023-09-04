@@ -1,0 +1,111 @@
+thead {
+  background-color: #673ab7;
+  color: white;
+}
+
+/* .gradient-green {
+  background: linear-gradient(to right, #e1bee7, #f3e5f5) !important;
+  transition: background 0.3s ease;
+}
+
+.gradient-red {
+  background: linear-gradient(to right, #f8bbd0, #fce4ec) !important;
+  transition: background 0.3s ease;
+}
+
+/* 
+tr.gradient-green:hover {
+  background: linear-gradient(to right, #ce93d8, #e1bee7) !important;
+}
+
+tr.gradient-red:hover {
+  background: linear-gradient(to right, #f48fb1, #f8bbd0) !important;
+} */
+
+.gradient-green {
+  background: linear-gradient(to right, #753d80, #926599) !important;
+  transition: background 0.3s ease;
+}
+
+.gradient-red {
+  background: linear-gradient(to right, #af3f66, #eb608e) !important;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+tr.gradient-green:hover {
+  background: linear-gradient(to right, #421b49, #753d80) !important;
+}
+
+tr.gradient-red:hover {
+  background: linear-gradient(to right, #6b1835, #af3f66) !important;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  max-width: 600px;
+  background-color: #673ab7; /* Purple color */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; /* Prevent the tooltip from blocking clicks */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .pagination {
+    margin-top: 10px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards; /* Preserve animation state after it ends */
+}
